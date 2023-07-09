@@ -28,7 +28,7 @@ for link in links:
     if h2_elementos[6].text == "R$":
         preco = h2_elementos[7].text
     else:
-    # Define um valor padrão caso o atributo não esteja presente
+    # Define a posição anterior caso o valor não esteja presente na posição [7]
         preco = h2_elementos[6].text
         
     
